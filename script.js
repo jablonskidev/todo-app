@@ -1,3 +1,6 @@
+//Clear input on page refresh
+document.getElementById('input-task').value = '';
+
 //Create an event listener for users adding tasks
 document.getElementById('add-button').addEventListener('click', addTask);
 
