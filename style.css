@@ -1,8 +1,41 @@
-body {
+#to-do-app {
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 235px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #404040;
+}
+
+#adding-tasks {
+    text-align: center;
+}
+
+#input-task {
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#add-button {
+    border-radius: 5px;
+}
+
+#task-box {
+    width: 220px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
     list-style-type: none;
+    padding: 10px 10px 10px 10px;
 }
